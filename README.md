@@ -26,8 +26,8 @@ Please download, install and configure the following prior to proceeding:
   3. Add the Ubuntu Trusty64 Vagrant box file. This add command downloads the box from the public Vagrant Box catalogue.
    * ``` vagrant box add ubuntu/trusty64 ```
   4. If you use git, clone this repo with the command ```git clone https://github.com/sutharsan-sivapalan/CumulusVX_Clos.git```.  Otherwise, download the archive [here](https://github.com/sutharsan-sivapalan/CumulusVX_Clos/archive/master.zip).
-  5. Enter the command "vagrant up" in the directory where the files were placed. This will create and provision the Cumulus VX instances.
-  6. Once completed, connect to the CLI of the VX instances with "vagrant ssh ```hostname```"
+  5. Enter the command ```vagrant up``` in the directory where the files were placed. This will create and provision the Cumulus VX instances.
+  6. Once completed, connect to the CLI of the VX instances with ```vagrant ssh hostname```
 
 ![Topology](./CumulusVX_Clos_Topology.png)
 
