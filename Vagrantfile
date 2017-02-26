@@ -17,7 +17,7 @@ groups = {
 Vagrant.configure(2) do |config|
 
 	config.vm.define "spine1" do |spine1|
-		spine1.vm.box = "cumulus-vx-3.0.0"
+		spine1.vm.box = "cumulus-vx-3.2.1"
         if Vagrant.has_plugin?("vagrant-cachier")
             config.cache.scope = :box
         end
@@ -47,7 +47,7 @@ Vagrant.configure(2) do |config|
 	end
 
     config.vm.define "spine2" do |spine2|
-        spine2.vm.box = "cumulus-vx-3.0.0"
+        spine2.vm.box = "cumulus-vx-3.2.1"
         if Vagrant.has_plugin?("vagrant-cachier")
             config.cache.scope = :box
         end
@@ -77,7 +77,7 @@ Vagrant.configure(2) do |config|
     end
 
 	config.vm.define "leaf1" do |leaf1|
-		leaf1.vm.box = "cumulus-vx-3.0.0"
+		leaf1.vm.box = "cumulus-vx-3.2.1"
         if Vagrant.has_plugin?("vagrant-cachier")
             config.cache.scope = :box
         end
@@ -105,7 +105,7 @@ Vagrant.configure(2) do |config|
 	end
 
 	config.vm.define "leaf2" do |leaf2|
-		leaf2.vm.box = "cumulus-vx-3.0.0"
+		leaf2.vm.box = "cumulus-vx-3.2.1"
         if Vagrant.has_plugin?("vagrant-cachier")
             config.cache.scope = :box
         end
@@ -133,7 +133,7 @@ Vagrant.configure(2) do |config|
 	end
 
 	config.vm.define "leaf3" do |leaf3|
-		leaf3.vm.box = "cumulus-vx-3.0.0"
+		leaf3.vm.box = "cumulus-vx-3.2.1"
         if Vagrant.has_plugin?("vagrant-cachier")
             config.cache.scope = :box
         end
@@ -161,7 +161,7 @@ Vagrant.configure(2) do |config|
 	end
 
     config.vm.define "leaf4" do |leaf4|
-        leaf4.vm.box = "cumulus-vx-3.0.0"
+        leaf4.vm.box = "cumulus-vx-3.2.1"
         if Vagrant.has_plugin?("vagrant-cachier")
             config.cache.scope = :box
         end

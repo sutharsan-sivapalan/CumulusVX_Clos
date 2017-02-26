@@ -4,7 +4,7 @@ Virtual environment of Cumulus VX using Vagrant, VirtualBox & Ansible.
 
 #### Prerequisites
 Please download, install and configure the following prior to proceeding:
-  * Download the Cumulus VX version 3.0.0 file for Vagrant Box.
+  * Download the Cumulus VX version 3.2.1 file for Vagrant Box.
    * https://cumulusnetworks.com/cumulus-vx/download/
   * VirtualBox must be installed.
     * https://www.virtualbox.org/
@@ -20,9 +20,9 @@ Please download, install and configure the following prior to proceeding:
 
 #### Setup Instructions
   1. Download and/or install all the above prerequisites.
-  2. Add the Cumulus VX Vagrant Box file with the name "cumulus-vx-3.0.0"
+  2. Add the Cumulus VX Vagrant Box file with the name "cumulus-vx-3.2.1"
    * This is achived with the following command in the directory where the box file is placed:
-	``` vagrant box add cumulus-linux-3.0.0-vx-amd64-1464279382.a8e7985zf0f5ad5.box --name cumulus-vx-3.0.0 ```
+	``` vagrant box add cumulus-linux-3.2.1-vx-amd64-1486153138.ac46c24zd00d13e.box --name cumulus-vx-3.2.1 ```
   3. Add the Ubuntu Trusty64 Vagrant box file. This add command downloads the box from the public Vagrant Box catalogue:
 	* ``` vagrant box add ubuntu/trusty64 ```
   4. If you use git, clone this repo with the command:
