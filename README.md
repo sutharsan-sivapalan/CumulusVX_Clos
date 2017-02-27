@@ -31,5 +31,5 @@ Please download, install and configure the following prior to proceeding:
   5. Enter the command ```vagrant up``` in the directory where the files were placed. This will create and provision the Cumulus VX instances.
   6. Once completed, connect to the CLI of the VX instances with ```vagrant ssh hostname```.
 
-![Topology](./CumulusVX_Clos_Topology.png)
+![Topology](./Cumulus_VX_Clox_Topology-2017Feb.png)
 
