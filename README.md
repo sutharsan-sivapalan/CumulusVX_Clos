@@ -8,7 +8,7 @@ Please download, install and configure the following prior to proceeding:
    * https://cumulusnetworks.com/cumulus-vx/download/
   * VirtualBox must be installed.
     * https://www.virtualbox.org/
-  * Vagrant must be installed.
+  * Vagrant (1.8.7) must be installed.
     * https://www.vagrantup.com/
   * Ansible must be installed using PIP or APT.
     * http://www.ansible.com/
