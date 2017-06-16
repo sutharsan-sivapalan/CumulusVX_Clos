@@ -29,7 +29,7 @@ Please download, install and configure the following prior to proceeding:
 	```git clone https://github.com/sutharsan-sivapalan/CumulusVX_Clos.git```.
 	Otherwise, download the archive [here](https://github.com/sutharsan-sivapalan/CumulusVX_Clos/archive/master.zip).
   5. Enter the command ```vagrant up``` in the directory where the files were placed. This will create and provision the Cumulus VX instances.
-  6. Once completed, connect to the CLI of the VX instances with ```vagrant ssh hostname```.
+  6. Once completed, connect to the CLI of the VX instances with ```vagrant ssh <hostname>```.
 
 ![Topology](./Cumulus_VX_Clox_Topology-2017Feb.png)
 
